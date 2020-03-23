@@ -32,13 +32,13 @@ Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tah
 
 ans:
 STORE "year" to any number
-IF ("year" % 4 == 0 && "year" % 100 != 0)
+IF ("year" mod 4 == 0 && "year" mod 100 != 0)
     DISPLAY "Tahun Kabisat"
-ELSE IF ("year" % 4 == 0 && "year" % 100 == 0 && "year" % 400 == 0)
+ELSE IF ("year" mod 4 == 0 && "year" mod 100 == 0 && "year" mod 400 == 0)
     DISPLAY "Tahun Kabisat"
 ELSE
     DISPLAY "Bukan Tahun Kabisat"
-
+ENDIF
 
 3. Laundry Day
 Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan
@@ -65,8 +65,7 @@ tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
 Buatlah algoritma & pseudocode untuk permasalahan diatas.
 
 ans:
-STORE "i" to 0
-FOR ("i"; "i" < 40; ++i)
+FOR ("i" from 0 to 40)
     CHECK "nails" on "student[i]"
     IF ("nails" == "Good")
         DO "Appreciate"
