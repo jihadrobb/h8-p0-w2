@@ -1,7 +1,8 @@
 // Konversi Menit
 
 function konversiMenit(menit) {
-    return((menit/60) + ':' + (menit%60));
+    var sisa = menit%60;
+    return((menit/60).toFixed() + ':' + (sisa >9 ? sisa : '0' + sisa));
   }
   
   // TEST CASES
