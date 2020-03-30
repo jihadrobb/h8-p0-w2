@@ -1,7 +1,7 @@
-var nama = 'Jihad';
-var peran ='';
+var nama = '';
+var peran ='Ksatria';
 
-if(nama == '' && peran == ''){
+if(nama == ''){
     console.log(`Nama harus diisi!`);
 } else if(peran == 'Ksatria'){
     console.log(`Selamat datang di Dunia Proxytia, ${nama}`);
