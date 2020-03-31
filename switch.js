@@ -16,9 +16,9 @@ switch(bulan){
     }
     case 2:
         var kabisat;
-        if(tahun%4 == 0 && tahun%100 !=0){
+        if(tahun%4 === 0 && tahun%100 !==0){
             kabisat = true;
-        }else if(tahun%4 == 0 && tahun%100 == 0 && tahun%400 == 0){
+        }else if(tahun%4 === 0 && tahun%100 === 0 && tahun%400 === 0){
             kabisat = true;
         }else{
             kabisat = false;
@@ -27,10 +27,10 @@ switch(bulan){
         if(tahun<1900 || tahun >2200){
             console.log('Tahun error! Pilih 1900-2200');
             break;
-        }else if(kabisat == true && (tanggal>29 || tanggal<1)){
+        }else if(kabisat === true && (tanggal>29 || tanggal<1)){
             console.log('Tanggal error! Pilih 1-29');
             break;
-        }else if(kabisat==false && (tanggal <1 || tanggal >28)){
+        }else if(kabisat===false && (tanggal <1 || tanggal >28)){
             console.log('Tanggal error! Pilih 1-28');
             break;
         }else {
