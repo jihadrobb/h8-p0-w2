@@ -12,12 +12,12 @@ Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk meng
 mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
 
 ans:
-STORE "m" to 600
-STORE "a" to 2
+STORE m to 600
+STORE a to 2
 
-CALCULATE "m" * "a"
-STORE "f" to the result of calculation
-DISPLAY "f"
+CALCULATE m multiplied by a
+STORE f to the result of calculation
+DISPLAY f
 
 
 2.Tahun Kabisat
@@ -31,10 +31,10 @@ Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
 Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
 
 ans:
-STORE "year" to any number
-IF ("year" mod 4 equals to 0 AND "year" mod 100 not equals to 0)
+STORE year to any number
+IF (year mod 4 equals to 0 AND year mod 100 not equals to 0)
     DISPLAY "Tahun Kabisat"
-ELSE IF ("year" mod 4 equals to 0 AND "year" mod 100 equals to 0 AND "year" mod 400 equals to 0)
+ELSE IF (year mod 4 equals to 0 AND year mod 100 equals to 0 AND year mod 400 equals to 0)
     DISPLAY "Tahun Kabisat"
 ELSE
     DISPLAY "Bukan Tahun Kabisat"
@@ -49,12 +49,12 @@ Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuc
  pseudocode perulangan!
 
 ans:
-STORE "sum" to 20
-WHILE ("sum" > 0)
-    ADD "clothes"
-    CALCULATE "sum" - 1
+STORE sum to 20
+WHILE (sum > 0) DO
+    ADD clothes
+    CALCULATE sum minus 1
 ENDWHILE
-TURN ON "washmachine"
+TURN ON washmachine
 
 
 4.Periksa Kuku
@@ -65,9 +65,9 @@ tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
 Buatlah algoritma & pseudocode untuk permasalahan diatas.
 
 ans:
-FOR ("i" from 0 to 40)
-    CHECK "nails" on "student[i]"
-    IF ("nails" == "Good")
+FOR (i from 0 to 40) DO
+    CHECK nails on student[i]
+    IF (nails === "Good")
         DO "Appreciate"
     ELSE
         DO "Punish"
