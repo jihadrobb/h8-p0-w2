@@ -32,9 +32,9 @@ Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tah
 
 ans:
 STORE "year" to any number
-IF ("year" mod 4 == 0 && "year" mod 100 != 0)
+IF ("year" mod 4 equals to 0 AND "year" mod 100 not equals to 0)
     DISPLAY "Tahun Kabisat"
-ELSE IF ("year" mod 4 == 0 && "year" mod 100 == 0 && "year" mod 400 == 0)
+ELSE IF ("year" mod 4 equals to 0 AND "year" mod 100 equals to 0 AND "year" mod 400 equals to 0)
     DISPLAY "Tahun Kabisat"
 ELSE
     DISPLAY "Bukan Tahun Kabisat"
