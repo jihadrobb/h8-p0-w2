@@ -67,10 +67,11 @@ Buatlah algoritma & pseudocode untuk permasalahan diatas.
 ans:
 FOR (i from 0 to 40) DO
     CHECK nails on student[i]
-    IF (nails === "Good")
+    IF (nails equals to "Good")
         DO "Appreciate"
     ELSE
         DO "Punish"
+    ENDIF
 ENDFOR
 
 
